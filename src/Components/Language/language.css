@@ -1,0 +1,38 @@
+.lang {
+  text-align: center;
+}
+
+.lang h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.imgs {
+  display: flex;
+  margin: 20px 20%;
+}
+
+.img {
+  margin: 25px;
+  padding: 25px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.img1 {
+  display: flex;
+}
+
+@media (max-width: 400px) {
+  .imgs {
+    margin: 5px;
+  }
+  .img1 {
+    display: block;
+  }
+  .img {
+    margin: 10px 15px;
+    padding: 25px;
+  }
+}
